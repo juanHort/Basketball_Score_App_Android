@@ -106,6 +106,56 @@
                 android:src="@android:drawable/ic_media_play" />
         </LinearLayout>
 
+        <RelativeLayout
+            android:id="@+id/rl_fourth_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_third_section"
+            android:layout_above="@+id/tv_visitor_title"
+            android:layout_margin="16dp">
+
+            <Button
+                android:id="@+id/btn_visitor_minus_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="@string/minus_1"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_visitor_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="96sp"
+                android:textStyle="bold"
+                tools:text="0" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:layout_centerVertical="true">
+
+                <Button
+                    android:id="@+id/btn_visitor_plus_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/plus_1"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/btn_visitor_plus_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/plus_2"
+                    android:textSize="24sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
 
         <TextView
             android:id="@+id/tv_visitor_title"
