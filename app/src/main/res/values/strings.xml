@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Basketball Score</string>
+    <string name="local_title">Local</string>
+    <string name="minus_1">-1</string>
+    <string name="plus_1">+1</string>
+    <string name="plus_2">+2</string>
+    <string name="visitor">Visitor</string>
+</resources>
