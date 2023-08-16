@@ -5,4 +5,7 @@
     <string name="plus_1">+1</string>
     <string name="plus_2">+2</string>
     <string name="visitor">Visitor</string>
+    <string name="zero_value">0</string>
+    <string name="restart_score">Restart Score</string>
+    <string name="get_final_score">Get Final Score</string>
 </resources>
